@@ -15,3 +15,5 @@ dist/
 
 # tailwindcss temporary file
 src/style.css
+.vim/
+example/src/style.css
