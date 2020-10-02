@@ -1,0 +1,25 @@
+{
+  "name": "elm-keyboard-shortcut",
+  "version": "1.0.0",
+  "description": "companion package for elm-keyboard-shortcut",
+  "main": "src/shortcut-element.ts",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leojpod/elm-keyboard-shortcut.git"
+  },
+  "author": "Leojpod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leojpod/elm-keyboard-shortcut/issues"
+  },
+  "homepage": "https://github.com/leojpod/elm-keyboard-shortcut#readme",
+  "dependencies": {
+    "@webcomponents/custom-elements": "^1.4.2"
+  }
+}
