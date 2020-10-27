@@ -1,34 +1,13 @@
-# elm-tailwindcss-parcel-starter
+# elm-keyboard-shortcut
 
-I usually use [create-elm-app](https://github.com/halfzebra/create-elm-app) but
-sometimes you just want a quick setup that doesn't come with the entire
-artillery. This is what this template is for. It aims at being a simple yet
-fully working setup for elm with tailwindcss packed up with parcel.js.
+## Why?
 
-## Running it
+Listening to the keyboard without dealing with where the focus is or anything like this is a bit messy.
+One way to do this to use Browser.Events.keyPressed and the like. 
+However, this mean you have to keep track of subscription and to correctly interpret each key stroke in your app based on your model, etc. 
 
-Once you've created your new project with this template just `cd` in it and run:
+An alternative would be to listen to keyboard events directly within your views. You already have access to the model or the relevant part of the models in there and if you event is not on display then it should not capture anything. 
+The main issue with that approach is the focus: only focusable element can listen to keyboard event and only when focused will those event listener be triggered. 
+Hence, now you need to keep that in mind.
 
-```sh
-npm install
-```
-
-Once you've all the dependencies installed you'll need to have 2 small script
-running side by side. The first one if to compile the style files into `src/style.css`:
-
-```sh
-npm run css:watch
-```
-
-You can run `npm run css:build` to simply build the css once.
-Note that is you run it in "production" (i.e. `NODE_ENV npm run css:build`),
-tailwind's purge will kick in and your CSS file size is going to shrink quite
-drastically.
-
-The second command to run parcel and kick up the server is:
-
-```sh
-npm start
-```
-
-That should be all!
+With this package, you get the best of both world but you need to use a custom element for it: the custom element will let you define which shortcut you'd like to listen to and listen for them directly on the document.body so you can be sure you'll get the events you're expecting. 
