@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "companion package for elm-keyboard-shortcut",
   "main": "src/shortcut-element.js",
-  "directories": {
-    "example": "example"
-  },
+  "files": [
+    "/src/*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
