@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/leojpod/elm-tailwindcss-postcss-parcel-starter#readme",
   "dependencies": {
+    "elm-keyboard-shortcut": "file:..",
     "nodemon": "^2.0.4",
     "tailwindcss": "^1.8.10"
   },

@@ -1,5 +1,5 @@
 import './style.css'
 import { Elm } from './elm/Main.elm'
-import '../../src/shortcut-element'
+import 'elm-keyboard-shortcut'
 
 Elm.Main.init({ flags: {} })
