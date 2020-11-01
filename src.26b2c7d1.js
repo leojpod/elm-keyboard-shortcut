@@ -12,4 +12,4 @@ var e=arguments[3],t=1/0,o="[object Symbol]",u=/[\xc0-\xd6\xd8-\xf6\xf8-\xff\u01
 },{"@webcomponents/custom-elements":"GpPR","lodash.deburr":"hDwD"}],"QCba":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("./style.css");var e=require("./elm/Main.elm");require("elm-keyboard-shortcut"),e.Elm.Main.init({flags:{}});
 },{"./style.css":"iMte","./elm/Main.elm":"ENeC","elm-keyboard-shortcut":"B80G"}]},{},["QCba"], null)
-//# sourceMappingURL=/elm-keyboard-shortcut/src.dd6f0fcb.js.map
+//# sourceMappingURL=/elm-keyboard-shortcut/src.26b2c7d1.js.map
