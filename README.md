@@ -1,5 +1,7 @@
 # elm-keyboard-shortcut
 
+![GitHub Page example](https://github.com/leojpod/elm-keyboard-shortcut/workflows/GitHub%20Page%20example/badge.svg?branch=master)
+
 ## Why?
 
 Listening to the keyboard without dealing with where the focus is or anything like this is a bit messy.
