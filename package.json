@@ -1,6 +1,6 @@
 {
   "name": "elm-keyboard-shortcut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "companion package for elm-keyboard-shortcut",
   "main": "src/shortcut-element.js",
   "files": [
