@@ -17,3 +17,4 @@ dist/
 .vim/
 example/src/style.css
 .DS_Store
+example/.parcel-cache/

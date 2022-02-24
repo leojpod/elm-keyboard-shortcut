@@ -225,7 +225,7 @@ keyToString key =
             "Backspace"
 
         Space ->
-            "Space"
+            " "
 
         Tab ->
             "Tab"

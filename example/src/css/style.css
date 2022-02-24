@@ -3,3 +3,10 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer base {
+  kbd {
+    @apply shadow-sm border-2 border-gray-100;
+    @apply p-1;
+  }
+}
