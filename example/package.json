@@ -2,7 +2,6 @@
   "name": "keyboard-shortcut-example",
   "version": "1.0.0",
   "description": "example for the keyboard shortcut",
-  "main": "index.js",
   "scripts": {
     "start": "npm run css:build && npx run-pty % npm run css:watch % npm run app:start % npx elm-doc-preview -b % npx elm-review --watch",
     "app:start": "npx parcel src/index.html",
@@ -18,6 +17,8 @@
   },
   "homepage": "https://leojpod.github.io/elm-keyboard-shortcut/",
   "dependencies": {
+    "@webcomponents/custom-elements": "^1.5.0",
+    "lodash.deburr": "^4.1.0",
     "elm": "^0.19.1-5",
     "elm-keyboard-shortcut": "file:..",
     "tailwindcss": "^3.0.23"
